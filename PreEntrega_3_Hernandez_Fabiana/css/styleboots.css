@@ -32,6 +32,7 @@ main {
     padding-top: 2rem;
     
 }
+
 .tiendagrid{
     display: grid;    
     grid-template-columns: 25% 25% 25% 25%;
