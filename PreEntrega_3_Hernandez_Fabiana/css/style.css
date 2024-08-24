@@ -138,6 +138,14 @@ main p {
     color: #333;
 }
 
+.cart-image {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-left: 1rem;
+}
+
+
 
 
 /* Estilo del footer */

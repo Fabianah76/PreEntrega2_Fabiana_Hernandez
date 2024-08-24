@@ -30,34 +30,47 @@
             </div>
         </div>
     </header>
-    <main class="container-fluid h-60 d-flex flex-column justify-content-start align-items-center">
-        
-        <!-- <div class="row col-10 mt-4">
-            <div class="col-sm-12 col-md-6 col-lg-6 mb-3 mt-3">
-                <input type="text" class="form-control" placeholder="Nombres" aria-label="Nombres">
+    <main class="container-fluid h-60 d-flex flex-column justify-content-center align-items-center">
+                                     
+        <div class="row col-10 mt-4">
+            <!-- Encabezado del Carrito -->
+            <div class="row justify-content-center text-center align-items-center">
+                <div class="col-12 ms-4">
+                    <h1>Carrito de Compras<img src="../assets/images/logocarrito.png" alt="Carrito" class="cart-image my-3"></h1> 
+                </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 mb-3 mt-3">
-                <input type="text" class="form-control" placeholder="Apellidos" aria-label="Apellidos">
+            
+            <!-- Tabla del Carrito -->
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Item</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Acción</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="items">
+                            <!-- Aquí se agregarán dinámicamente los items del carrito -->
+                        </tbody>
+                        <tfoot>
+                            <tr id="footer">
+                                <th scope="row" colspan="5" class="text-center">Carrito vacío - comience a comprar!</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+    
+            <!-- Cards de Productos (opcional) -->
+            <div class="row" id="cards">
+                <!-- Aquí se agregarán dinámicamente las tarjetas de productos -->
             </div>
         </div>
-
-        <div class=" row col-10">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <input type="text" class="form-control" placeholder="Email" aria-label="Email">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <input type="text" class="form-control" placeholder="Teléfono" aria-label="Teléfono">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-12 mb-3">
-                <label class="form-label"></label>
-                <textarea class="form-control" placeholder="Comentarios" rows="5"></textarea>
-            </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-light">Enviar</button>
-            </div>
-        </div> -->
-                       
-                                             
+        
     </main>
 
     <footer class="container-fluid bg-secondary-subtle h-20">
