@@ -4,93 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/styleboots.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../assets/images/logohilados.ico" type="image/x-icon">
     <title>Tienda - Tienda de hilados online</title>
 </head>
 <body>
     <header class="container-fluid bg-secondary-subtle h-20"> 
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-1 d-flex justify-content-start mt-2 ms-2 h-100">
-                <img src="../assets/images/logohilados.png" alt="">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-1 d-flex justify-content-start mt-2 ms-2">
+                <img src="../assets/images/logohilados.png" alt="" class="img-fluid">
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 mt-2 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 mt-2 justify-content-center">
                 <h4>Tejemos - Tienda de hilados online</h4> 
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-6 mt-2 d-flex justify-content-end align-items-end">
+            <div class="col-lg-6 d-flex justify-content-end align-items-center">
                 <nav>           
-                    <ul> 
-                        <li class="btn btn-light m-3 s-1"><a href="../index.html">Home</a></li>
-                        <li class="btn btn-light m-3 s-1"><a href="./nosotros.html">Nosotros</a></li>
-                        <li class="btn btn-light m-3 s-1"><a href="./tienda.html">Tienda</a></li>
-                        <li class="btn btn-light m-3 s-1"><a href="./contacto.html">Contacto</a></li>
-                        <li class="btn btn-light m-3"><a href="./mi_carrito.html">Mi carrito</a></li>
+                    <ul class="d-flex justify-content-end align-items-center">
+                        <li class="btn btn-light m-1"><a href="../index.html">Home</a></li>
+                        <li class="btn btn-light m-1"><a href="./nosotros.html">Nosotros</a></li>
+                        <!-- <li class="btn btn-light m-1"><a href="./tienda.html">Tienda</a></li> -->
+                        <li class="btn btn-light m-1"><a href="./contacto.html">Contacto</a></li>
+                        <li class="btn btn-light m-1"><a href="./mi_carrito.html">Mi carrito</a></li>
                     </ul> 
                 </nav>
             </div>
         </div>
     </header>
+    
+    <main class="container-fluid h-60 d-flex flex-column justify-content-center align-items-center row-gap-3 column-gap-3">
+        <div class="tiendagrid" class="row col-10 mt-4">
+            <div class="card" class="col-sm-12 col-md-6 col-lg-3 ms-3 mt-3">
+                <div class="card-inner" class="col-sm-12 col-md-6 col-lg-3 ms-3 mt-3">
+                    <div class="card-front" class="col-sm-12 col-md-6 col-lg-3 ms-3 mt-3">
+                        <img class="imagentienda" src="../assets/images/imagen1.png" alt="Producto 1">
+                    </div>
+                    <div class="card-back" class="col-sm-12 col-md-6 col-lg-3 mb-3 mt-3">
+                        <h5 class="precio">UYU $1300 / madeja</h5>
+                    </div>
+                </div>
+            </div>
 
-    <main class="container-fluid">
-        <div class="tiendagrid">
-            <div class="caja"><img class="imagentienda" src="../assets/images/imagen1.png" alt=""></div>
-            <div class="caja"><img class="imagentienda" src="../assets/images/imagen2.png" alt=""></div>
-            <div class="caja"><img class="imagentienda" src="../assets/images/imagen3.png" alt=""></div>
-            <div class="caja"><img class="imagentienda" src="../assets/images/imagen4.png" alt=""></div> 
-            <div class="cajaprecio"><h7 class="precios">UYU $1300 / madeja</h7></div>
-            <div class="cajaprecio"><h7 class="precios">UYU $1500 / madeja</h7></div>
-            <div class="cajaprecio"><h7 class="precios">UYU $1500 / madeja</h7></div>
-            <div class="cajaprecio"><h7 class="precios">UYU $2000 / madeja</h7></div>                                          
+            <div class="card">
+                <div class="card-inner" class="col-sm-12 col-md-6 col-lg-3 ms-3 mt-3">
+                    <div class="card-front">
+                        <img class="imagentienda" src="../assets/images/imagen2.png" alt="Producto 2">
+                    </div>
+                    <div class="card-back">
+                        <h5 class="precio">UYU $1500 / madeja</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner" class="col-sm-12 col-md-6 col-lg-3 ms-3 mt-3">
+                    <div class="card-front">
+                        <img class="imagentienda" src="../assets/images/imagen3.png" alt="Producto 3">
+                    </div>
+                    <div class="card-back">
+                        <h5 class="precio">UYU $1500 / madeja</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner" class="col-sm-12 col-md-6 col-lg-3 mb-3 mt-3">
+                    <div class="card-front">
+                        <img class="imagentienda" src="../assets/images/imagen4.png" alt="Producto 4">
+                    </div>
+                    <div class="card-back">
+                        <h5 class="precio">UYU $2000 / madeja</h5>
+                    </div>
+                </div>
+            </div>                                       
         </div>
-                                
     </main>
+
+
+    
+
     
     <footer class="container-fluid bg-secondary-subtle h-20">
         <div class="row">
-            <div class="col -2 d-flex mt-2 ms-2">
-                <img src="../assets/images/logohilados.png" alt="">
+            <div class="col-12 col-md-3 d-flex justify-content-start mt-2">
+                <img src="../assets/images/logohilados.png" alt="" class="img-fluid">
             </div>
             
-            <div class=" col -5 col-xs-12 col-md-6 col-lg-3 mt-2">
-                <div>
-                    <h5>Contactanos: </h5>
-                </div>
-                <div>
-                    <p>+598 92 876 678</p>
-                </div>
-                <div>
-                    <p>tejemos@tiendadehilados.com</p> 
-                </div>                   
+            <div class="col-12 col-md-3 mt-2">
+                <h5>Contactanos: </h5>
+                <p>+598 92 876 678</p>
+                <p>tejemos@tiendadehilados.com</p>                   
             </div>
-            <div class=" col -5 col-xs-12 col-md-6 col-lg-3 mt-2">
-                <div>
-                    <p>Canelones 2244</p>
-                </div>
-                <div>
-                    <p>Montevideo, Uruguay</p>
-                </div>
-                <div>
-                    <p>CP 11200</p> 
-                </div>                   
-            </div>
-            <div class="col -5 col-xs-12 col-md-6 col-lg-3 mt-2">
-                <div>
-                    <h5>Encontranos en: </h5>
-                </div>  
-                <div>
-                    <a href="#">Facebook</a>
-                </div>
-                <div>
-                    <a href="#">Twitter</a>
-                </div>
-                <div>
-                    <a href="#">Instagram</a>
-                </div>
-                                    
-            </div>
-                     
-                  
             
+            <div class="col-12 col-md-3 mt-2">
+                <p>Canelones 2244</p>
+                <p>Montevideo, Uruguay</p>
+                <p>CP 11200</p>                   
+            </div>
+            
+            <div class="col-12 col-md-3 mt-2">
+                <h5>Encontranos en: </h5>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Instagram</a></p>
+            </div>
         </div>
     </footer>
     
