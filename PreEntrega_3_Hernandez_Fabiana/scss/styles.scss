@@ -1,4 +1,7 @@
-/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
     color: #333;
@@ -25,10 +28,6 @@ header h4 {
     margin: 0;
     text-align: center;
 }
-/*
-header nav {
-    margin-left: auto; /* Empuja el menú de navegación a la derecha */
-/* } */ */
 
 header nav ul {
     list-style: none;
@@ -55,7 +54,7 @@ header nav ul li a:hover {
 }
 
 
-/* Estilo del main */
+
 main {
     background: url('../assets/images/Ovillos\ de\ lana.png') no-repeat center center fixed;
     background-size: cover;
@@ -146,9 +145,6 @@ main p {
 }
 
 
-
-
-/* Estilo del footer */
 footer {
     display: flex;
     background-color: #e9ecef;
@@ -182,7 +178,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsividad */
 @media (max-width: 768px) {
     header nav ul {
         flex-direction: column;
@@ -193,4 +188,3 @@ footer a:hover {
         text-align: center;
     }
 }
-
