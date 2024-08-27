@@ -7,7 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   color: #333;
-  background-color: #f8f9fa;
+  background-color: #e494cb;
   margin: 0;
   padding: 0;
 }
@@ -17,6 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
+  background-color: #e494cb;
 }
 
 header .row {
@@ -53,7 +54,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
   background-color: #f8f9fa; /* Color de fondo al pasar el ratón */
-  color: #007bff;
+  color: #333;
 }
 
 main {
@@ -118,7 +119,7 @@ main p {
 }
 
 .card-back {
-  background-color: #f8f9fa;
+  background-color: #e494cb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,8 +146,8 @@ main p {
 
 footer {
   display: flex;
-  background-color: #e9ecef;
-  color: #495057;
+  background-color: #e494cb;
+  color: #333;
   padding: 20px 0;
 }
 

@@ -1,3 +1,6 @@
+$bg-headerfooter: #e494cb;
+$font-colorheaderfooter: #333;
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    background-color: #f8f9fa;
+    background-color:$bg-headerfooter;
     margin: 0;
     padding: 0;
 }
@@ -14,6 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+    background-color: $bg-headerfooter;
 }
 
 header .row {
@@ -42,7 +46,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: $font-colorheaderfooter;
     padding: 10px 15px;
     display: block;
     border-radius: 5px;
@@ -50,10 +54,8 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background-color: #f8f9fa; /* Color de fondo al pasar el ratón */
-    color: #007bff;
+    color: $font-colorheaderfooter;
 }
-
-
 
 main {
     background: url('../assets/images/Ovillos\ de\ lana.png') no-repeat center center fixed;
@@ -112,14 +114,13 @@ main p {
     border-radius: 10px;
 }
 
-
 .card-front {
     background-color: #fff;
     border-radius: 10px;
 }
 
 .card-back {
-    background-color: #f8f9fa;
+    background-color:$bg-headerfooter;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +135,7 @@ main p {
 
 .precio {
     font-size: 1.5rem;
-    color: #333;
+    color: $font-colorheaderfooter;
 }
 
 .cart-image {
@@ -144,17 +145,15 @@ main p {
     margin-left: 1rem;
 }
 
-
 footer {
     display: flex;
-    background-color: #e9ecef;
-    color: #495057;
+    background-color:$bg-headerfooter;
+    color:$font-colorheaderfooter ;
     padding: 20px 0;
 }
 footer .row{
     width: 100%;
 }
-
 
 footer img {
     max-height: 120px;
@@ -170,7 +169,7 @@ footer p {
 }
 
 footer a {
-    color: #333;
+    color: $font-colorheaderfooter;
     text-decoration: none;
 }
 
